@@ -3,6 +3,8 @@
     --primary: #FE5D37;
     --light: #FFF5F3;
     --dark: #103741;
+    --special: rgb(14,47,56);
+    --logoblue: rgb(66,169,203);
 }
 
 .back-to-top {
@@ -81,7 +83,8 @@ h4,
 .display-4,
 .display-5,
 .display-6 {
-    font-family: 'Lobster Two', cursive;
+   /* font-family: 'Lobster Two', cursive;*/
+    font-family: 'Verdana', cursive;
     font-weight: 700;
 }
 
@@ -93,7 +96,8 @@ h6,
 }
 
 .font-secondary {
-    font-family: 'Lobster Two', cursive;
+   /* font-family: 'Lobster Two', cursive;*/
+   font-family: 'Verdana', cursive;
 }
 
 
@@ -107,7 +111,8 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    /* color: var(--primary); */
+    color: var(--logoblue);
 }
 
 .navbar.sticky-top {
@@ -225,7 +230,8 @@ h6,
     }
 
     .header-carousel .owl-carousel-item h1 {
-        font-size: 30px;
+        /* font-size: 30px; */
+        font-size: 10px; 
         font-weight: 600;
     }
 }
