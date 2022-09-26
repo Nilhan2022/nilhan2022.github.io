@@ -66,7 +66,10 @@
     font-weight: normal;
     border-radius: 50px;
 }
-
+/* //added by me// */
+.display-2{
+    font-size: 2.5rem;
+}
 
 /*** Heading ***/
 h1,
@@ -113,8 +116,13 @@ h6,
 .navbar .navbar-nav .nav-link.active {
     /* color: var(--primary); */
     color: var(--logoblue);
+    
 }
 
+.navbar .navbar-nav .nav-link:hover{
+    
+color: rgb(194, 187, 187);
+}
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -230,8 +238,8 @@ h6,
     }
 
     .header-carousel .owl-carousel-item h1 {
-        /* font-size: 30px; */
-        font-size: 10px; 
+        font-size: 30px;
+        /* font-size: 10px;  */
         font-weight: 600;
     }
 }
@@ -258,6 +266,7 @@ h6,
     border: 1px solid #FFFFFF;
     border-radius: 45px;
     font-size: 22px;
+    /* font-size: 10px;  */
     transition: .5s;
 }
 
