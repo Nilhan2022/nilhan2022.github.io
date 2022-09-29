@@ -20,8 +20,12 @@
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             $('.sticky-top').addClass('shadow-sm').css('top', '0px');
+            // $(my-header).removeClass("first");
+            // $(my-header).addClass("second");
         } else {
             $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
+            // $(my-header).removeClass("second");
+            // $(my-header).addClass("first");
         }
     });
     

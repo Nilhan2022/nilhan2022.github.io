@@ -1,7 +1,7 @@
 class MyHeader extends HTMLElement {
 connectedCallback(){
 this.innerHTML = `
-<header>
+
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
         <a href="index.html" class="navbar-brand">
@@ -47,7 +47,7 @@ this.innerHTML = `
         </div>
     </nav>
     <!-- Navbar End -->
-</header>
+
 
 
 `

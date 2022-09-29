@@ -1,8 +1,10 @@
+
 /********** Template CSS **********/
 :root {
     --primary: #FE5D37;
     --light: #FFF5F3;
     --dark: #103741;
+    --special: rgb(14,47,56);
     --logoblue: rgb(66,169,203);
 }
 
@@ -65,7 +67,10 @@
     font-weight: normal;
     border-radius: 50px;
 }
-
+/* //added by me// */
+.display-2{
+    font-size: 2.5rem;
+}
 
 /*** Heading ***/
 h1,
@@ -82,7 +87,8 @@ h4,
 .display-4,
 .display-5,
 .display-6 {
-    font-family: 'Lobster Two', cursive;
+   /* font-family: 'Lobster Two', cursive;*/
+    font-family: 'Verdana', cursive;
     font-weight: 700;
 }
 
@@ -94,7 +100,8 @@ h6,
 }
 
 .font-secondary {
-    font-family: 'Lobster Two', cursive;
+   /* font-family: 'Lobster Two', cursive;*/
+   font-family: 'Verdana', cursive;
 }
 
 
@@ -108,9 +115,15 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    /* color: var(--primary); */
+    color: var(--logoblue);
+    
 }
 
+.navbar .navbar-nav .nav-link:hover{
+    
+color: rgb(194, 187, 187);
+}
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -160,6 +173,28 @@ h6,
         opacity: 1;
     }
 }
+/* ///our logo */
+
+            .responsive {
+            width: 75%;
+            height: auto;
+            }
+            .mobile{
+                display:none;
+            }
+            @media screen and (max-width: 465px) {
+                .responsive { 
+                    display:none;
+                
+                }
+
+                .mobile{
+                    display:block;
+                }
+            }
+    
+
+
 
 
 /*** Header ***/
@@ -174,7 +209,8 @@ h6,
     top: 0;
     left: 0;
     background: url(../img/bg-header-top.png) center center repeat-x;
-    z-index: 1;
+    /* z-index: ori 1; */
+    z-index: 2;
 }
 
 .header-carousel::after,
@@ -205,6 +241,7 @@ h6,
 
     .header-carousel .owl-carousel-item h1 {
         font-size: 30px;
+        /* font-size: 10px;  */
         font-weight: 600;
     }
 }
@@ -250,6 +287,17 @@ h6,
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*** Facility ***/
 .facility-item .facility-icon {
     position: relative;
@@ -271,7 +319,8 @@ h6,
     left: 0;
     background: rgba(255, 255, 255, .9);
     transition: .5s;
-    z-index: 1;
+    /* z-index: 1; ori*/
+    z-index: -1;
 }
 
 .facility-item .facility-icon span {
@@ -291,7 +340,8 @@ h6,
 
 .facility-item .facility-icon i {
     position: relative;
-    z-index: 2;
+    /* z-index: 2; */
+    z-index: 1;
 }
 
 .facility-item .facility-text {
@@ -314,12 +364,14 @@ h6,
     left: 0;
     background: rgba(255, 255, 255, .9);
     transition: .5s;
-    z-index: 1;
+    /* z-index: 1; */
+    z-index: 0;
 }
 
 .facility-item .facility-text * {
     position: relative;
-    z-index: 2;
+    /* z-index: 2; ori */
+    z-index: 0;
 }
 
 .facility-item:hover .facility-icon::before,
@@ -428,6 +480,49 @@ h6,
 }
 
 
+/*** Added by nilhan general***/
+
+.blue{
+    /* color: blue; */
+    color: #42A9CB;
+}
+
+.red{
+    color:red;
+}
+
+.form-floating{
+    z-index:0;
+}
+
+header{
+    position: sticky;
+    align-self: flex-start;
+    
+    /* overflow-y: auto; */
+    top: 0px;
+        transition: .5s;
+    z-index:1;
+}
+
+.page-header{
+    z-index:1;
+}
+
+.dropdown-menu{
+    z-index:99;
+}
+.dropdown{
+    z-index:99;
+}
+
+
+.navbar{
+    z-index:99;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
 /*** Footer ***/
 .footer .btn.btn-social {
     margin-right: 5px;
@@ -504,108 +599,48 @@ h6,
 }
 
 
-/*** Added by nilhan general***/
+mDrop{
 
-.responsive {
-    width: 75%;
-    height: auto;
-    }
-    .mobile{
-        display:none;
-    }
-    @media screen and (max-width: 465px) {
-        .responsive { 
-            display:none;
-        
-        }
-
-        .mobile{
-            display:block;
-        }
-    }
-   /* overflow-y: auto; */
-
-/* header{
-    /* position: sticky;
-    align-self: flex-start;   
-    top: 0px;
-}
- */
-
-   .first{
     position: relative;
-    align-self: flex-start;
-    top: 0px;
-    transition: .5s;
-    /* z-index:1;*/
+    top: 13.6rem;
+  }
+  .mDrop{
+
+    position: relative;
+    top: 13.6rem;
+  }
+
+ div.mDrop {
+    /* visibility: hidden; */
+    opacity: 0;
+    width: 8rem;
+    position: absolute;
+    top: 40px;
+    transition: all 0.5s ease;
+    margin-top: 1.5rem;
+    /* display: none; */
+  }
+  
+  div a:hover,
+  .mDrop:hover .li:hover {
+    background-color: green;
+  }
+  
+  div:hover > a,
+  div:focus-within > a,
+  div a:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+  .navbar{
+    z-index:99;
 }
-
-
-.second{
-    position: sticky;
-    align-self: flex-start;
-    top: 0px;
-    transition: .5s;
-    /* z-index:1;*/
-}
-
-
-
-    .navbar .navbar-nav .nav-link:hover,
-    .navbar .navbar-nav .nav-link.active {
-        /* color: var(--primary); */
-        color: var(--logoblue);
-        
-    }
-    
-    .navbar .navbar-nav .nav-link:hover{
-        
-    color: rgb(194, 187, 187);
-    }
-
-    .display-2{
-        font-size: 2.5rem;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    .h1,
-    .h2,
-    .h3,
-    .h4,
-    .display-1,
-    .display-2,
-    .display-3,
-    .display-4,
-    .display-5,
-    .display-6 {
-       /* font-family: 'Lobster Two', cursive;*/
-        font-family: 'Verdana', cursive;
-        font-weight: 700;
-    }
-
-
-    .font-secondary {
-        /* font-family: 'Lobster Two', cursive;*/
-        font-family: 'Verdana', cursive;
-     }
-     
-     
-
-
-
-
-.blue{
-    /* color: blue; */
-    color: #42A9CB;
-}
-
-.red{
-    color:red;
-}
-
-.form-floating{
-    z-index:0;
+.page-header{
+    z-index:1;
 }
