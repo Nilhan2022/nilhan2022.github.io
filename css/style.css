@@ -287,6 +287,26 @@ color: rgb(194, 187, 187);
 }
 
 
+/*** Added by nilhan general***/
+
+.blue{
+    /* color: blue; */
+    color: #42A9CB;
+}
+
+.red{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
 /*** Facility ***/
 .facility-item .facility-icon {
     position: relative;
