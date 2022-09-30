@@ -609,3 +609,17 @@ h6,
 .form-floating{
     z-index:0;
 }
+
+
+/* //// */
+
+  /* /////////// */
+
+  .noarrow{
+/* background-image: ; */
+background-image: none !important;
+  }
+  /* .accordion-button:not(.collapsed)::after */
+.accordion-button .noarrow {
+    background-image: none !important;
+}
