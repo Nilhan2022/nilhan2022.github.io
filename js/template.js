@@ -158,7 +158,7 @@ class MyCourses extends HTMLElement {
                         <img class="img-fluid rounded-circle" src="img/classes-3.jpg" alt="">
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="">Scratch Programming</a>
+                        <a class="d-block text-center h3 mt-3 mb-4" href="ScratchCourse.html">Scratch Programming</a>
                           <!-- teacher and price deleted -->
 
                         <div class="row g-1">
