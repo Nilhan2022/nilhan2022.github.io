@@ -623,3 +623,8 @@ background-image: none !important;
 .accordion-button .noarrow {
     background-image: none !important;
 }
+
+.list-group-item:empty{
+    display:none;
+    
+}

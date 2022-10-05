@@ -57,6 +57,17 @@
             '<i class="bi bi-chevron-right"></i>'
         ]
     });
+        // $( "td:empty" )
+    if ($(".career-list-group:empty")){
+         // #notifyCareer( "Was empty!" )
+    $("#notifyCareer").text("There are currently no open vacancies, you may send us your c.v. for notification in future or contact us for career guidance help. ");
+    }
+    else{
+        $("#notifyCareer").text("Please check the below vacancies, or contact us for career guidance");
+    }
+          // $(".have_career .list-group-item:emty").hide() 
+          // $(".have_career .list-group-item:emty").hide() 
+
 
 
     // Testimonials carousel
