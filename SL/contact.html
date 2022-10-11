@@ -80,7 +80,8 @@
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                    
                     <p>We sow seeds that will make a hundreds and thousands to succeed in their aspirations..</p>
-                        <h1 class="mb-3">Got questions? Send us a message  </h1>
+                        <h1 class="mb-3">Got questions? </h1>
+                        <p>Talk to us and decide. Make the decision of a lifetime.  <a href = "tel:+94742833337">(+94) 0742833337</a></p>
                 </div>
                
 
@@ -128,7 +129,7 @@
                                         <div class="col-6">
                                             <div class="form-floating">
                                                 <input type="text" name= "$FirstName" class="form-control border-0" id="Type" placeholder="Type">
-                                                <label for="Type">Type</label>
+                                                <label for="Type">Subject</label>
                                             </div>
                                         </div>
                                         <div class="col-12">
@@ -161,7 +162,7 @@
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                    
             <!-- <p>We sow seeds that will make a hundreds and thousands to succeed in their aspirations..</p> -->
-                <h3 class="mb-3">Talk to us and decide. Make the decision of a lifetime. {phone/whatsapp} 0742833337 </h3>
+                <h3 class="mb-3"> </h3>
         
                 <!-- <div class="col-md-6 col-lg-4 text-center wow fadeInUp" data-wow-delay="0.5s">
                     <div class="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 75px; height: 75px;">
@@ -204,23 +205,22 @@
 
 <script>// When the user scrolls the page, execute myFunction
     
-//     $(function() {
-//     //caches a jQuery object containing the header element
-//     // var header = $(".clearHeader");
-//     $(window).scroll(function() {
-//         var scroll = $(window).scrollTop();
-
-//         if (scroll >= 50) {
-//             my-header.addClass("second");
-//             my-header.removeClass("first");
-//             // nav.addClass("shadow-sm");
-//         } else {
-//             my-header.addClass("first");
-//             my-header.removeClass("second");
-            
-//         }
-//     });
-// });
+    fetch("https://jsonplaceholder.typicode.com/posts", {
+    method: 'post',
+    body: post,
+    headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    }
+        }).then((response) => {
+            return response.json()
+        }).then((res) => {
+            if (res.status === 201) {
+                console.log("Post successfully created!")
+            }
+        }).catch((error) => {
+            console.log(error)
+        })  
     </script>
 
 

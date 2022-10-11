@@ -32,11 +32,11 @@ this.innerHTML = `
             <div class="nav-item dropdown">
                 <a href="about.html" class="nav-link nav-link_c dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
-                    <a href="facility.html" class="dropdown-item nav-link_c">Our Academy</a>
+                    <a href="academy.html" class="dropdown-item nav-link_c">Our Academy</a>
                     <!-- <a href="Student_Guidance_Appointment.html" class="dropdown-item nav-link_c">Student Guidance</a> -->
                     <a href="guidance.html" class="dropdown-item nav-link_c">Guidance</a>
                     <a href="careers.html" class="dropdown-item nav-link_c">Careers</a>
-                    <a href="colaborate.html" class="dropdown-item nav-link_c">Colaborate</a>
+                    <a href="collaborate.html" class="dropdown-item nav-link_c">Collaborate</a>
                     <!-- <a href="become_mentor.html" class="dropdown-item nav-link_c">Become A Mentor</a>
                     <a href="become_entrepreneuer.html" class="dropdown-item nav-link_c">Become A Entrepreneur</a>
                     <a href="Partner_with_us.html" class="dropdown-item nav-link_c">Partner With Us</a> -->
@@ -53,7 +53,7 @@ this.innerHTML = `
             </div>
             <a href="contact.html" class="nav-item nav-link nav-link_c">Contact Us</a>
         </div>
-        <a href="" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i class="fa fa-arrow-right ms-3"></i></a>
+        <a href="courses_main.html" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
 </nav>
     <!-- Navbar End -->
@@ -131,7 +131,7 @@ class MyCourses extends HTMLElement {
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
             <h2 class="mb-3">+Tech Courses</h2>
-            <p>Go through our courses and start learning or Connect with our mentors to get guidance to enroll for the best course suitable for your dreams.</p>
+            <p>“Computer science helped shape the way I think about the world” - Bill Gates</p>
         </div>
         <div class="row g-4">
 
@@ -139,12 +139,12 @@ class MyCourses extends HTMLElement {
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="classes-item">
                     <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                        <img class="img-fluid rounded-circle" src="img/classes-1.jpg" alt="">
+                        <img class="img-fluid rounded-circle" src="../img/coding.jpeg" alt="">
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="codingkids1d.html">Coding for Kids</a>
+                        <a class="d-block text-center h3 mt-3 mb-4" href="codingkids1d.html">Coding Classes</a>
                         <!-- teacher and price deleted -->
-                        <span class="bg-primary text-white rounded-pill py-2 px-3" href="">Rs 900/=</span>
+                        
                     </div>
                         <div class="row g-1">
                             <div class="col-4">
@@ -155,8 +155,8 @@ class MyCourses extends HTMLElement {
                             </div>
                             <div class="col-4">
                                 <div class="border-top border-3 border-success pt-2">
-                                    <h6 class="text-success mb-1">Duration:</h6>
-                                    <small>1 day</small>
+                                    <h6 class="text-success mb-1">Language:</h6>
+                                    <small>English / Sinhala</small>
                                 </div>
                             </div>
                             <div class="col-4">
@@ -174,24 +174,24 @@ class MyCourses extends HTMLElement {
             <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.3s">
                 <div class="classes-item">
                     <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                        <img class="img-fluid rounded-circle" src="img/classes-2.jpg" alt="">
+                        <img class="img-fluid rounded-circle" src="../img/cbasic.jpeg" alt="">
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="codingkids6d.html">Coding for Kids</a>
+                        <a class="d-block text-center h3 mt-3 mb-4" href="codingkids6d.html">Computer Basics</a>
                           <!-- teacher and price deleted -->
-                          <span class="bg-primary text-white rounded-pill py-2 px-3" href="">Rs 5000/=</span>
+                         
                           </div>
                         <div class="row g-1">
                             <div class="col-4">
                                 <div class="border-top border-3 border-primary pt-2">
                                     <h6 class="text-primary mb-1">Age:</h6>
-                                    <small>7-16 Years</small>
+                                    <small>6-60 Years</small>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="border-top border-3 border-success pt-2">
-                                    <h6 class="text-success mb-1">Duration:</h6>
-                                    <small>6 Days</small>
+                                    <h6 class="text-success mb-1">Language:</h6>
+                                    <small>English / Sinhala</small>
                                 </div>
                             </div>
                             <div class="col-4">
@@ -209,25 +209,25 @@ class MyCourses extends HTMLElement {
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="classes-item">
                     <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                        <img class="img-fluid rounded-circle" src="img/classes-3.jpg" alt="">
+                        <img class="img-fluid rounded-circle" src="../img/entrep.jpeg" alt="">
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="TechKids(SLASSCOM).html">Tech Kids (SLASSCOM)</a>
+                        <a class="d-block text-center h3 mt-3 mb-4" href="TechKids(SLASSCOM).html">Entrepreneurship</a>
                           <!-- teacher and price deleted -->
-                          <span class="bg-primary text-white rounded-pill py-2 px-3" href="">Rs 12000/=</span>
+                         
                           </div>
 
                         <div class="row g-1">
                             <div class="col-4">
                                 <div class="border-top border-3 border-primary pt-2">
                                     <h6 class="text-primary mb-1">Age:</h6>
-                                    <small>10-16 Years</small>
+                                    <small>10-50 Years</small>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="border-top border-3 border-success pt-2">
-                                    <h6 class="text-success mb-1">Duration:</h6>
-                                    <small>Months</small>
+                                    <h6 class="text-success mb-1">Language:</h6>
+                                    <small>English / Sinhala</small>
                                 </div>
                             </div>
                             <div class="col-4">
@@ -436,42 +436,44 @@ class MyFooter extends HTMLElement {
                 <div class="d-flex pt-2">
                     <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
                     <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> -->
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                    <!-- // <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>-->
+                    <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>-->
+                    <!--  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>-->
                     <!-- <i class="fa-brands fa-instagram"></i> -->
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <h3 class="text-white mb-4">Quick Links</h3>
-                <a class="btn btn-link text-white-50" href="about.html">About Us</a>
+                <a class="btn btn-link text-white-50" href="academy.html">About Us</a>
                 <a class="btn btn-link text-white-50" href="contact.html">Contact Us</a>
-                <a class="btn btn-link text-white-50" href="">Become a Learner</a>
-                <a class="btn btn-link text-white-50" href="">Become a Teacher</a>
+                <a class="btn btn-link text-white-50" href="courses_main.html">Become a Learner</a>
+                <a class="btn btn-link text-white-50" href="careers.html">Become a Teacher</a>
                 <a class="btn btn-link text-white-50" href="faq.html">FAQ</a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <h3 class="text-white mb-4">Photo Gallery</h3>
+                <h3 class="text-white mb-4">PlusTech Academy</h3>
                 <div class="row g-2 pt-2">
-                    <div class="col-4">
+                <p>At +Tech Academy, our goal is to help children and everyone else fall in love with computer science and learn the value of learning coding at a young age. Not only is programming vital to success in the technology-driven 21st century, but it can teach kids & teens a broad range of skills that will help them in countless other areas as well.</p>
+                <!--<div class="col-4">
+                    
                         <img class="img-fluid rounded bg-light p-1" src="img/classes-1.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-2.jpg" alt="">
+                     <img class="img-fluid rounded bg-light p-1" src="img/classes-2.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-3.jpg" alt="">
+                       <img class="img-fluid rounded bg-light p-1" src="img/classes-3.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-4.jpg" alt="">
+                       <img class="img-fluid rounded bg-light p-1" src="img/classes-4.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-5.jpg" alt="">
+                      <img class="img-fluid rounded bg-light p-1" src="img/classes-5.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
+                      <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
                     </div>
-                </div>
+                </div>-->
             </div>
             <!-- <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Newsletter</h3>
@@ -494,7 +496,7 @@ class MyFooter extends HTMLElement {
                 </div> -->
 
                 <div class="col-md-2 text-center">
-                    &copy; <a class="border-bottom" href="#">TechAcademy</a>
+                    <a class="border-bottom" href="#">Can Academy (Pvt) Ltd.</a>
                     
                     <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>  -->
                 </div>
