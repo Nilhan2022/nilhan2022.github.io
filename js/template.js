@@ -417,6 +417,7 @@ customElements.define('my-courses',MyCourses)
 class MyFooter extends HTMLElement {
     connectedCallback(){
     this.innerHTML = `
+    
     <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5">
@@ -428,42 +429,44 @@ class MyFooter extends HTMLElement {
                 <div class="d-flex pt-2">
                     <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
                     <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> -->
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                    <!-- // <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>-->
+                    <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>-->
+                    <!--  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>-->
                     <!-- <i class="fa-brands fa-instagram"></i> -->
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <h3 class="text-white mb-4">Quick Links</h3>
-                <a class="btn btn-link text-white-50" href="">About Us</a>
-                <a class="btn btn-link text-white-50" href="">Contact Us</a>
-                <a class="btn btn-link text-white-50" href="">Become a Learner</a>
-                <a class="btn btn-link text-white-50" href="">Become a Teacher</a>
-                <a class="btn btn-link text-white-50" href="">FAQ</a>
+                <a class="btn btn-link text-white-50" href="academy.html">About Us</a>
+                <a class="btn btn-link text-white-50" href="contact.html">Contact Us</a>
+                <a class="btn btn-link text-white-50" href="courses_main.html">Become a Learner</a>
+                <a class="btn btn-link text-white-50" href="careers.html">Become a Teacher</a>
+                <a class="btn btn-link text-white-50" href="faq.html">FAQ</a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <h3 class="text-white mb-4">Photo Gallery</h3>
+                <h3 class="text-white mb-4">PlusTech Academy</h3>
                 <div class="row g-2 pt-2">
-                    <div class="col-4">
+                <p>At +Tech Academy, our goal is to help children and everyone else fall in love with computer science and learn the value of learning coding at a young age. Not only is programming vital to success in the technology-driven 21st century, but it can teach kids & teens a broad range of skills that will help them in countless other areas as well.</p>
+                <!--<div class="col-4">
+                    
                         <img class="img-fluid rounded bg-light p-1" src="img/classes-1.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-2.jpg" alt="">
+                     <img class="img-fluid rounded bg-light p-1" src="img/classes-2.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-3.jpg" alt="">
+                       <img class="img-fluid rounded bg-light p-1" src="img/classes-3.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-4.jpg" alt="">
+                       <img class="img-fluid rounded bg-light p-1" src="img/classes-4.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-5.jpg" alt="">
+                      <img class="img-fluid rounded bg-light p-1" src="img/classes-5.jpg" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
+                      <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
                     </div>
-                </div>
+                </div>-->
             </div>
             <!-- <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Newsletter</h3>
@@ -486,7 +489,7 @@ class MyFooter extends HTMLElement {
                 </div> -->
 
                 <div class="col-md-2 text-center">
-                    &copy; <a class="border-bottom" href="#">TechAcademy</a>
+                    <a class="border-bottom" href="#">Can Academy (Pvt) Ltd.</a>
                     
                     <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>  -->
                 </div>
@@ -508,6 +511,8 @@ class MyFooter extends HTMLElement {
         </div>
     </div>
 </div>
+
+
 
 
     `
