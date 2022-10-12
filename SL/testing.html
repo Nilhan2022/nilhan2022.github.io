@@ -383,3 +383,415 @@
 </div>
 
 <!-- ////  /////////////original footer end/// -->
+
+
+
+<!--  nested accordian testing -->
+<div class="accordion" id="accordionExample">
+    <!-- /////1 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#topcollapseOne" aria-expanded="false" aria-controls="collapseOne">
+            General Faq
+            </button>
+        </h2>
+        <div class="accordion-body">
+        <!-- class="accordion accordion-flush" -->
+        <!-- <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="topcollapseOne"></div>
+        tt
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="topcollapseOne">
+            <div class="accordion-body">
+                <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+
+                    /// -->
+        <!-- <div class="accordion-item" id="accordionFlushExample"class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionExample"> -->
+            <div class="accordion accordion-flush" id="accordionFlushExample" data-bs-toggle="collapse show" data-bs-target="#topcollapseOne">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Q #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</div>
+            <!-- <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Q #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Q #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+    </div>
+-->
+
+
+
+
+
+
+
+    <!-- /////2 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       Why Coding..?
+        </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Course Introduction
+                </button>
+                <button class="accordion-button" type="button"  data-bs-toggle="collapse" data-bs-target="#collapseTwo">Download and Install Scratch</button>
+                <button class="accordion-button" type="button"  data-bs-toggle="collapse" data-bs-target="#collapseTwo">Learn Scratch without a Mac
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+<!--  nested accordian testing end -->
+
+
+
+<!-- /// working nested accordian/// -->
+<form>
+    <!-- Syllabus start-->
+    <!-- <div class="container"> -->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0 d-inline">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            General Faq
+                        </button>
+                     </h5>
+                     <!-- <a href="#" data-target="[data-parent='#child1']" data-toggle="collapse" class="my-2 float-right">close all</a> -->
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body" id="child1">
+                 
+                        <div class="card">
+                            <!-- <div class="card-header"> -->
+                                <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneA">
+                                    Child A
+                                </button>
+                            <!-- </div> -->
+                            <div class="card-body collapse" data-parent="#child1" id="collapseOneA">
+                                Crunch wolf moon tempor, sunt aliqua put a bird.
+                            </div>
+                        </div>
+                        <!-- Q2//////////////// -->
+                        <div class="card">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneB">
+                                    Child B
+                                </button>
+                      
+                            <div class="card-body collapse" data-parent="#child1" id="collapseOneB">
+                                Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                            </div>
+                        </div>
+                        <!-- Q3//////////////// -->
+                        <div class="card">
+                            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneC">
+                                Child B
+                            </button>
+
+                        <div class="card-body collapse" data-parent="#child1" id="collapseOneC">
+                            Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                        </div>
+                        </div>
+
+
+                        <!-- Q4//////////////// -->
+                        <div class="card">
+                            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneD">
+                                Child B
+                            </button>
+                  
+                        <div class="card-body collapse" data-parent="#child1" id="collapseOneD">
+                            Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                        </div>
+                    </div>
+
+
+                    <!-- Q5//////////////// -->
+                    <div class="card">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneE">
+                            Child B
+                        </button>
+              
+                    <div class="card-body collapse" data-parent="#child1" id="collapseOneE">
+                        Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                    </div>
+                </div>
+
+                <!-- Q6//////////////// -->
+                <div class="card">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneF">
+                        Child B
+                    </button>
+          
+                    <div class="card-body collapse" data-parent="#child1" id="collapseOneF">
+                        Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                    </div>
+                </div>
+
+            <!-- Q7//////////////// -->
+                <div class="card">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneG">
+                        Child B
+                    </button>
+        
+                    <div class="card-body collapse" data-parent="#child1" id="collapseOneG">
+                        Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                    </div>
+                </div>
+
+                <!-- Q8//////////////// -->
+                <div class="card">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneG">
+                        Child B
+                    </button>
+        
+                    <div class="card-body collapse" data-parent="#child1" id="collapseOneG">
+                        Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                    </div>
+                </div>
+
+
+                <!-- Q9//////////////// -->
+                <div class="card">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneG">
+                        Child B
+                    </button>
+        
+                    <div class="card-body collapse" data-parent="#child1" id="collapseOneG">
+                        Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                    </div>
+                </div>
+
+
+                <!-- Q10//////////////// -->
+                <div class="card">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneG">
+                        Child B
+                    </button>
+            
+                    <div class="card-body collapse" data-parent="#child1" id="collapseOneG">
+                        Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                    </div>
+                </div>
+
+
+
+        <!-- END FOR COLLAPSIBLE 1 -->
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+            <!-- <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Collapsible #2
+            </button> -->
+            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Why Coding.. ?
+            </button>
+          </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <!-- <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
+                        raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div> -->
+
+                    <!-- <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion"> -->
+                        <div class="card-body" id="childa1">
+                     
+                            <div class="card">
+                                <!-- <div class="card-header"> -->
+                                    <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoA">
+                                        Child A
+                                    </button>
+                                <!-- </div> -->
+                                <div class="card-body collapse" data-parent="#childa1" id="collapseTwoA">
+                                    Crunch wolf moon tempor, sunt aliqua put a bird.
+                                </div>
+                            </div>
+                   
+                   
+
+                            <!-- ///Q2/// -->
+                                                                             
+                                <div class="card">
+                                    <!-- <div class="card-header"> -->
+                                        <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoB">
+                                            Child A
+                                        </button>
+                                    <!-- </div> -->
+                                    <div class="card-body collapse" data-parent="#childa1" id="collapseTwoB">
+                                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                                    </div>
+                                </div>
+
+                                 <!-- ///Q3/// -->
+                                                                             
+                                 <div class="card">
+                                    <!-- <div class="card-header"> -->
+                                        <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoC">
+                                            Child A
+                                        </button>
+                                    <!-- </div> -->
+                                    <div class="card-body collapse" data-parent="#childa1" id="collapseTwoC">
+                                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                                    </div>
+                                </div>
+
+                                 <!-- ///Q4/// -->
+                                                                             
+                                 <div class="card">
+                                    <!-- <div class="card-header"> -->
+                                        <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoD">
+                                            Child A
+                                        </button>
+                                    <!-- </div> -->
+                                    <div class="card-body collapse" data-parent="#childa1" id="collapseTwoD">
+                                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                                    </div>
+                                </div>
+
+                                 <!-- ///Q5/// -->
+                                                                             
+                                 <div class="card">
+                                    <!-- <div class="card-header"> -->
+                                        <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoE">
+                                            Child A
+                                        </button>
+                                    <!-- </div> -->
+                                    <div class="card-body collapse" data-parent="#childa1" id="collapseTwoE">
+                                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                                    </div>
+                                </div>
+
+                                 <!-- ///Q6/// -->
+                                                                             
+                                 <div class="card">
+                                    <!-- <div class="card-header"> -->
+                                        <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoF">
+                                            Child A
+                                        </button>
+                                    <!-- </div> -->
+                                    <div class="card-body collapse" data-parent="#childa1" id="collapseTwoF">
+                                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                                    </div>
+                                </div>
+
+                                 <!-- ///Q7/// -->
+                                                                             
+                                 <div class="card">
+                                    <!-- <div class="card-header"> -->
+                                        <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoG">
+                                            Child A
+                                        </button>
+                                    <!-- </div> -->
+                                    <div class="card-body collapse" data-parent="#childa1" id="collapseTwoG">
+                                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                                    </div>
+                                </div>
+
+
+                                 <!-- ///Q8/// -->
+                                                                             
+                                 <div class="card">
+                                    <!-- <div class="card-header"> -->
+                                        <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoH">
+                                            Child A
+                                        </button>
+                                    <!-- </div> -->
+                                    <div class="card-body collapse" data-parent="#childa1" id="collapseTwoH">
+                                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                                    </div>
+                                </div>
+
+
+                                 <!-- ///Q9/// -->
+                                                                             
+                                 <div class="card">
+                                    <!-- <div class="card-header"> -->
+                                        <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoI">
+                                            Child A
+                                        </button>
+                                    <!-- </div> -->
+                                    <div class="card-body collapse" data-parent="#childa1" id="collapseTwoI">
+                                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                                    </div>
+                                </div>
+
+                                 <!-- ///Q10/// -->
+                                                                             
+                                 <div class="card">
+                                    <!-- <div class="card-header"> -->
+                                        <button class="accordion-button noarrow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoJ">
+                                            Child A
+                                        </button>
+                                    <!-- </div> -->
+                                    <div class="card-body collapse" data-parent="#childa1" id="collapseTwoJ">
+                                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                                    </div>
+                                </div>
+
+
+
+                                
+
+                        </div>
+
+
+                </div>
+            </div>
+            
+           
+
+
+
+
+
+
+
+        </div>
+    <!-- </div> -->
+</form>
+
+<!-- /// working nested accordian End/// -->

@@ -628,3 +628,7 @@ background-image: none !important;
     display:none;
     
 }
+.courses_main {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(img/course_main.jpeg) center center no-repeat;
+    background-size: cover;
+}

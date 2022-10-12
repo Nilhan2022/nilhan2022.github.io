@@ -142,7 +142,7 @@ class MyCourses extends HTMLElement {
                         <img class="img-fluid rounded-circle" src="../img/coding.jpeg" alt="">
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="codingkids1d.html">Coding Classes</a>
+                        <a class="d-block text-center h3 mt-3 mb-4" href="coding_classes.html">Coding Classes</a>
                         <!-- teacher and price deleted -->
                         
                     </div>
@@ -150,7 +150,7 @@ class MyCourses extends HTMLElement {
                             <div class="col-4">
                                 <div class="border-top border-3 border-primary pt-2">
                                     <h6 class="text-primary mb-1">Age:</h6>
-                                    <small>7- 16 Years</small>
+                                    <small>6-60 Years</small>
                                 </div>
                             </div>
                             <div class="col-4">
@@ -177,7 +177,7 @@ class MyCourses extends HTMLElement {
                         <img class="img-fluid rounded-circle" src="../img/cbasic.jpeg" alt="">
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="codingkids6d.html">Computer Basics</a>
+                        <a class="d-block text-center h3 mt-3 mb-4" href="computerbasics.html">Computer Basics</a>
                           <!-- teacher and price deleted -->
                          
                           </div>
@@ -212,7 +212,7 @@ class MyCourses extends HTMLElement {
                         <img class="img-fluid rounded-circle" src="../img/entrep.jpeg" alt="">
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="TechKids(SLASSCOM).html">Entrepreneurship</a>
+                        <a class="d-block text-center h3 mt-3 mb-4" href="entrepreneurship.html">Entrepreneurship</a>
                           <!-- teacher and price deleted -->
                          
                           </div>
@@ -451,7 +451,7 @@ class MyFooter extends HTMLElement {
                 <a class="btn btn-link text-white-50" href="faq.html">FAQ</a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <h3 class="text-white mb-4">PlusTech Academy</h3>
+                <h3 class="text-white mb-4">+Tech Academy</h3>
                 <div class="row g-2 pt-2">
                 <p>At +Tech Academy, our goal is to help children and everyone else fall in love with computer science and learn the value of learning coding at a young age. Not only is programming vital to success in the technology-driven 21st century, but it can teach kids & teens a broad range of skills that will help them in countless other areas as well.</p>
                 <!--<div class="col-4">
