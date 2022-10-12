@@ -24,7 +24,7 @@ this.innerHTML = `
                 <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
                      <a href="coding_classes.html" class="dropdown-item nav-link_c">Coding Classes</a>
                      <a href="computerbasics.html" class="dropdown-item nav-link_c">Computer Basics</a>
-                     <a href="entrepreneurship.html" class="dropdown-item nav-link_c"> Entrepreneurship</a>
+                     <a href="innovation_entrepreneur.html" class="dropdown-item nav-link_c"> Innovation</a>
                  </div>
             </div>
             <!-- <a href="about.html" class="nav-item nav-link">About Us</a> -->
@@ -212,7 +212,7 @@ class MyCourses extends HTMLElement {
                         <img class="img-fluid rounded-circle" src="../img/entrep.jpeg" alt="">
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="entrepreneurship.html">Entrepreneurship</a>
+                        <a class="d-block text-center h3 mt-3 mb-4" href="innovation_entrepreneur.html">Innovation</a>
                           <!-- teacher and price deleted -->
                          
                           </div>
