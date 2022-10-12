@@ -23,8 +23,9 @@ this.innerHTML = `
              <a href="courses_main.html" class="nav-item nav-link nav-link_c dropdown-toggle" >Courses</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
                      <a href="coding_classes.html" class="dropdown-item nav-link_c">Coding Classes</a>
-                     <a href="computerbasics.html" class="dropdown-item nav-link_c">Computer Basics</a>
                      <a href="innovation_entrepreneur.html" class="dropdown-item nav-link_c"> Innovation</a>
+                     <a href="computerbasics.html" class="dropdown-item nav-link_c">Computer Basics</a>
+                    
                  </div>
             </div>
             <!-- <a href="about.html" class="nav-item nav-link">About Us</a> -->
