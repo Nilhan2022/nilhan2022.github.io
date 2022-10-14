@@ -333,11 +333,109 @@ class MyAppointment extends HTMLElement {
 
 
 
-//<!--/////////////////////////guidance -->///
+//<!--/////////////////////////guidance end-->///
+
+
+
+//<!--/////////////////////////contactme start -->///
+class MyContact extends HTMLElement {
+    connectedCallback(){
+    this.innerHTML = `
+    <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                   
+                    <p>We sow seeds that will make a hundreds and thousands to succeed in their aspirations..</p>
+                         <h1 class="mb-3 got_q">Got questions? </h1>
+                        <p>Talk to us and decide. Make the decision of a lifetime.  <a href = "tel:+94742833337">(+94) 0742833337</a></p>
+                </div>
+               
+
+
+
+                <div class="bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="h-100 d-flex flex-column justify-content-center p-5">
+                                <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
+                                <form  action="https://api.staticforms.xyz/submit" method="post">
+                                    <input type="hidden" name="accessKey" value="281452d4-29b2-438d-ac45-dac386f2da46">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control border-0" id="fname" placeholder="Your FirstName" name= "$FirstName">
+                                                <label for="name">Your FirstName</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="text" name= "$LastName" class="form-control border-0" id="lname" placeholder="Your LastName">
+                                                <label for="name">Your LastName</label>
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="number" name= "$FirstName" class="form-control border-0" id="phonenumber" placeholder="Your Phone Number">
+                                                <label for="phonenumber">Your Phone Number</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="number" name= "$FirstName" class="form-control border-0" id="Whatsapp" placeholder="Whatsapp Number">
+                                                <label for="phonenumber">Whatsapp Number</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                                                <label for="email">Your Email</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-floating">
+                                                <input type="text" name= "$FirstName" class="form-control border-0" id="Type" placeholder="Type">
+                                                <label for="Type">Subject</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <textarea name= "message" class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                                <label for="message">Message</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <input type="submit" value="Submit" class="btn btn-primary w-100 py-3"/>
+                                          
+                                            <!-- <button class="btn btn-primary w-100 py-3" type="submit" value="Submit">Send Message</button> --> 
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                            <div class="position-relative h-100">
+                                <iframe class="position-relative rounded w-100 h-100"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                                frameborder="0" style="min-height: 400px; border:0;" allowfullscreen="" aria-hidden="false"
+                                tabindex="0"></iframe>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    `
+    
+        }
+    }
+    customElements.define('my-contact',MyContact)
 
 
 
 
+//<!--/////////////////////////contactme end-->///
 
 
 
