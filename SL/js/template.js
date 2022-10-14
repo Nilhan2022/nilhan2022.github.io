@@ -140,7 +140,9 @@ class MyCourses extends HTMLElement {
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="classes-item">
                     <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                    <a href="coding_classes.html">
                         <img class="img-fluid rounded-circle" src="../img/coding.jpeg" alt="">
+                        </a>
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
                         <a class="d-block text-center h3 mt-3 mb-4" href="coding_classes.html">Coding Classes</a>
@@ -171,46 +173,14 @@ class MyCourses extends HTMLElement {
                 </div>
             
 
-            <!-- ////class2 -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.3s">
-                <div class="classes-item">
-                    <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                        <img class="img-fluid rounded-circle" src="../img/cbasic.jpeg" alt="">
-                    </div>
-                    <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="computerbasics.html">Computer Basics</a>
-                          <!-- teacher and price deleted -->
-                         
-                          </div>
-                        <div class="row g-1">
-                            <div class="col-4">
-                                <div class="border-top border-3 border-primary pt-2">
-                                    <h6 class="text-primary mb-1">Age:</h6>
-                                    <small>6-60 Years</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-success pt-2">
-                                    <h6 class="text-success mb-1">Language:</h6>
-                                    <small>English / Sinhala</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-warning pt-2">
-                                    <h6 class="text-warning mb-1">Level:</h6>
-                                    <small>Entry</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             
-
-            <!-- ////class3 -->
+            <!-- ////class2 -->
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="classes-item">
                     <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                    <a href="innovation_entrepreneur.html">
                         <img class="img-fluid rounded-circle" src="../img/entrep.jpeg" alt="">
+                        </a>
                     </div>
                     <div class="bg-light rounded p-4 pt-5 mt-n5">
                         <a class="d-block text-center h3 mt-3 mb-4" href="innovation_entrepreneur.html">Innovation</a>
@@ -242,176 +212,47 @@ class MyCourses extends HTMLElement {
                 </div>
           
 
-            <!-- ////class 4 -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp nohome" data-wow-delay="0.1s">
-                <div class="classes-item">
-                    <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                        <img class="img-fluid rounded-circle" src="img/classes-4.jpg" alt="">
-                    </div>
-                    <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="">Computer Basics for Youth</a>
-                          <!-- teacher and price deleted -->
-
-                        <div class="row g-1">
-                            <div class="col-4">
-                                <div class="border-top border-3 border-primary pt-2">
-                                    <h6 class="text-primary mb-1">Age:</h6>
-                                    <small>3-5 Years</small>
+                <!-- ////class3 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.3s">
+                    <div class="classes-item">
+                        <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                        <a href="computerbasics.html">
+                            <img class="img-fluid rounded-circle" src="../img/cbasic.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="bg-light rounded p-4 pt-5 mt-n5">
+                            <a class="d-block text-center h3 mt-3 mb-4" href="computerbasics.html">Computer Basics</a>
+                              <!-- teacher and price deleted -->
+                             
+                              </div>
+                            <div class="row g-1">
+                                <div class="col-4">
+                                    <div class="border-top border-3 border-primary pt-2">
+                                        <h6 class="text-primary mb-1">Age:</h6>
+                                        <small>6-60 Years</small>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-success pt-2">
-                                    <h6 class="text-success mb-1">Duration:</h6>
-                                    <small>4 Months </small>
+                                <div class="col-4">
+                                    <div class="border-top border-3 border-success pt-2">
+                                        <h6 class="text-success mb-1">Language:</h6>
+                                        <small>English / Sinhala</small>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-warning pt-2">
-                                    <h6 class="text-warning mb-1">Level:</h6>
-                                    <small>Advanced</small>
+                                <div class="col-4">
+                                    <div class="border-top border-3 border-warning pt-2">
+                                        <h6 class="text-warning mb-1">Level:</h6>
+                                        <small>Entry</small>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                
 
-            <!-- ////class 5 -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp nohome" data-wow-delay="0.3s">
-                <div class="classes-item">
-                    <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                        <img class="img-fluid rounded-circle" src="img/classes-5.jpg" alt="">
-                    </div>
-                    <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="">Computer Basics for Adults</a>
-                          <!-- teacher and price deleted -->
 
-                        <div class="row g-1">
-                            <div class="col-4">
-                                <div class="border-top border-3 border-primary pt-2">
-                                    <h6 class="text-primary mb-1">Age:</h6>
-                                    <small>15-35 Years</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-success pt-2">
-                                    <h6 class="text-success mb-1">Duration</h6>
-                                    <small>4 Months</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-warning pt-2">
-                                    <h6 class="text-warning mb-1">Level:</h6>
-                                    <small>Advanced</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ////class 6 -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp nohome" data-wow-delay="0.5s">
-                <div class="classes-item">
-                    <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                        <img class="img-fluid rounded-circle" src="img/classes-6.jpg" alt="">
-                    </div>
-                    <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="">Technovation</a>
-                          <!-- teacher and price deleted -->
-
-                        <div class="row g-1">
-                            <div class="col-4">
-                                <div class="border-top border-3 border-primary pt-2">
-                                    <h6 class="text-primary mb-1">Age:</h6>
-                                    <small>12-17 Years</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-success pt-2">
-                                    <h6 class="text-success mb-1">Duration:</h6>
-                                    <small>5 Months</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-warning pt-2">
-                                    <h6 class="text-warning mb-1">Level:</h6>
-                                    <small>Intermediate</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <!-- ////class 7 -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp nohome" data-wow-delay="0.3s">
-                <div class="classes-item">
-                    <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                        <img class="img-fluid rounded-circle" src="img/classes-5.jpg" alt="">
-                    </div>
-                    <div class="bg-light rounded p-4 pt-5 mt-n5">
-                        <a class="d-block text-center h3 mt-3 mb-4" href="">Technopreneurship</a>
-                          <!-- teacher and price deleted -->
-
-                        <div class="row g-1">
-                            <div class="col-4">
-                                <div class="border-top border-3 border-primary pt-2">
-                                    <h6 class="text-primary mb-1">Age:</h6>
-                                    <small>15-35 Years</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-success pt-2">
-                                    <h6 class="text-success mb-1">Duration</h6>
-                                    <small>4 Months</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="border-top border-3 border-warning pt-2">
-                                    <h6 class="text-warning mb-1">Level:</h6>
-                                    <small>Advanced</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+      
                     <!-- ////class 8 -->
-                    <div class="col-lg-4 col-md-6 wow fadeInUp nohome nocourse" data-wow-delay="0.3s">
-                        <div class="classes-item">
-                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                                <img class="img-fluid rounded-circle" src="img/classes-5.jpg" alt="">
-                            </div>
-                            <div class="bg-light rounded p-4 pt-5 mt-n5">
-                                <a class="d-block text-center h3 mt-3 mb-4" href="">Computer Basics for Adults|Youth|Teens</a>
-                                <!-- teacher and price deleted -->
-
-                                <div class="row g-1">
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-primary pt-2">
-                                            <h6 class="text-primary mb-1">Age:</h6>
-                                            <small>15-35 Years</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-success pt-2">
-                                            <h6 class="text-success mb-1">Duration</h6>
-                                            <small>4 Months</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-warning pt-2">
-                                            <h6 class="text-warning mb-1">Level:</h6>
-                                            <small>Advanced</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
+                    
 
 
         </div>

@@ -245,6 +245,8 @@ h6,
     background-size: cover;
 }
 
+
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
@@ -642,7 +644,14 @@ background-image: none !important;
 } */
 
 .courses_main {
-    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/img/course_main.jpeg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../../img/course_main3.png) center center no-repeat;
+    background-size: cover;
+}
+
+
+
+.cbasic {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/basicbanner2.jpg) center center no-repeat;
     background-size: cover;
 }
 
