@@ -658,3 +658,9 @@ background-image: none !important;
 .leftal{
     text-align: left;
 }
+.nobull {
+    list-style-type: none;
+   }
+.text-info_sp{
+    color: rgb(66, 169, 205);
+}

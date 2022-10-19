@@ -437,7 +437,108 @@ class MyContact extends HTMLElement {
 
 //<!--/////////////////////////contactme end-->///
 
+//<!--/////////////////////////guidance -->///
+class MyAppointmentSpecial extends HTMLElement {
+    connectedCallback(){
+    this.innerHTML = `
+    <div class="container-xxl py-5">
+            <div class="container">
+                <div class="bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="h-100 d-flex flex-column justify-content-center p-5">
+                                <h2 class="mb-4">Student Guidance</h2></br>
+                                <!-- <form>
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control border-0" id="gname" placeholder="Guardian Name">
+                                                <label for="gname">Student Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control border-0" id="gmail" placeholder="Guardian Email">
+                                                <label for="gmail">Mobile Number</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control border-0" id="cname" placeholder="Child Name">
+                                                <label for="cname">Whatsapp Number</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control border-0" id="cage" placeholder="Child Age">
+                                                <label for="cage">Email</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                                <label for="message">Message</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-primary w-100 py-3" type="submit">Make an Appointment</button>
+                                        </div>
+                                    </div> -->
 
+                                    <p>Talk to us and decide. Make the decision of a lifetime. 
+                                        <!-- <a href = "tel:+94742833337">(+94) 0742833337</a> -->
+                                     </p>
+                                     <p>   Send us your message including..
+                                   </p>
+
+                                  <p>Name, &nbsp;Email,&nbsp;& Contact Number,</p>
+                                  </br>
+                                    <ul class="nobull">
+                                            <li><a href = "tel:+94777428427">
+                                                <i class="bi bi-telephone-fill text-info_sp mx-2" aria-hidden="true">
+                                                    <!-- ::before -->
+                                                </i>
+                                                &nbsp;&nbsp;(+94) 0742833337</a>
+                            
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="https://wa.me/+94742833337" target="_blank">
+                                                    <i class="bi-chat text-info_sp mx-2"aria-hidden="true">
+                                                    </i>
+                                                    &nbsp;&nbsp;(+94) 0742833337</a>
+                                                
+                                            </li>
+                                                                
+                    
+                                    </ul>
+
+                                    </br>
+
+
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 500px;">
+                            <div class="position-relative h-100">
+                                <img class="position-absolute w-100 h-100 rounded" src="img/appointment.jpg" style="object-fit: cover;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+    `
+    
+        }
+    }
+    customElements.define('my-guidesp',MyAppointmentSpecial)
+
+
+
+
+//<!--/////////////////////////guidance end-->///
 
 
 

@@ -9,7 +9,9 @@ template.innerHTML = `
 
                         <div class="classes-item">
                             <div class="cls_img bg-light rounded-circle w-75 mx-auto p-3">
+                            <a id="cls_link" href="">
                                 <img  id="cls_img" class="img-fluid rounded-circle" src="" alt="">
+                             </a>
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
                                 <!-- <span class="bg-primary text-white rounded-pill py-2 px-3" href="">Rs 500/=</span> -->
@@ -79,12 +81,14 @@ class PetCard extends HTMLElement {
   attributeChangedCallback(name, oldValue, newValue) {
     
       
-// cls_img,cls_name,cls_type,cls_price,cls_age,cls_dur,cls_level
+//cls_link,cls_img,cls_name,cls_type,cls_price,cls_age,cls_dur,cls_level
       this.shadowRoot.querySelector("#cls_img").src =
       this.getAttribute("classimg");
     this.shadowRoot.querySelector("#cls_img").alt =
       this.getAttribute("classname");
       this.shadowRoot.querySelector("#cls_name").href =
+      this.getAttribute("syllabuspage");
+      this.shadowRoot.querySelector("#cls_link").href =
       this.getAttribute("syllabuspage");
       this.shadowRoot.querySelector("#cls_name").innerText  =
       this.getAttribute("classname");
