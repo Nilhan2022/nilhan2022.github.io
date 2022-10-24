@@ -664,3 +664,8 @@ background-image: none !important;
 .text-info_sp{
     color: rgb(66, 169, 205);
 }
+
+.boldcall{
+    color: rgb(66, 169, 205);
+    font-weight: 700;
+}

@@ -540,6 +540,40 @@ class MyAppointmentSpecial extends HTMLElement {
 
 //<!--/////////////////////////guidance end-->///
 
+class CallUs extends HTMLElement {
+    connectedCallback(){
+    this.innerHTML = `
+    <p class="boldcall">Call / Message to Register Now</p>
+    <p>Please include your name, contact number, whatsapp number, and email in your message. </p>
+<!-- </button> -->
+<ul class="nobull">
+    <li><a href = "tel:+94777428427">
+        <i class="bi bi-telephone-fill text-info_sp mx-2" aria-hidden="true">
+            <!-- ::before -->
+        </i>
+        &nbsp;&nbsp;(+94) 0742833337</a>
+
+    </li>
+    
+    <li>
+        <a href="https://wa.me/+94742833337" target="_blank">
+            <i class="bi-chat text-info_sp mx-2"aria-hidden="true">
+            </i>
+            &nbsp;&nbsp;(+94) 0742833337</a>
+        
+    </li>
+                        
+
+</ul>
+
+
+
+   
+    `
+    
+        }
+    }
+    customElements.define('my-call',CallUs)
 
 
 
