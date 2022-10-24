@@ -40,22 +40,8 @@
     <meta name="theme-color" content="#ffffff">
 
     <style>
-        .responsive {
-        width: 75%;
-        height: auto;
-        }
-        .mobile{
-            display:none;
-        }
-        @media screen and (max-width: 465px) {
-            .responsive { 
-                display:none;
-            
-            }
-
-            .mobile{
-                display:block;
-            }
+       #mycall{
+           display: none;
         }
     </style>
 </head>
@@ -106,7 +92,21 @@
                                 <p class="mb-4">We welcome who are hungry & humble to change lives through Tech education industry.</p>
                                  <p>    If you have outstanding communication skills in two languages (English is a must), Ability to plan, organize and coordinate with others with minimum supervision, outstanding skills & discipline to work remotely apply.
                                 </p>
-                                <a class="btn btn-primary py-3 px-5" href="">Apply Now<i class="fa fa-arrow-right ms-2"></i></a>
+                                <!-- <a class="btn btn-primary py-3 px-5" href="">Apply Now<i class="fa fa-arrow-right ms-2"></i></a> -->
+                            
+                                <a id="call2registerbtn"   class="btn btn-primary py-3 px-5" onclick="displayCallTextFunction()" >Apply Now<i class="fa fa-arrow-right ms-2"></i></a>
+                            
+                            
+                                <div id="mycall2">
+
+                                    <my-call></my-call>
+                                </div> 
+                            
+                            
+                            
+                            
+                            
+                            
                             </div>
                         </div>
                     </div>

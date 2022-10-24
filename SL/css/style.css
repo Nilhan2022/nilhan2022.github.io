@@ -669,6 +669,10 @@ background-image: none !important;
     color: rgb(66, 169, 205);
     font-weight: 700;
 }
-#mycall{
+/* #mycall{
     display: none;
+} */
+
+#mycallf{
+    text-align: center;
 }

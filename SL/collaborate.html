@@ -38,6 +38,11 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+    <style>
+        #mycall{
+            display: none;
+         }
+     </style>
     
 </head>
 
@@ -102,8 +107,18 @@
 
                                 <p>Got questions? Contact us anytime. 
                                 <a href = "tel:+94742833337">(+94) 0742833337</a></p>
-                                <a class="btn btn-primary py-3 px-5" href="">Get Started Now<i class="fa fa-arrow-right ms-2"></i></a>
+                                <!-- <a class="btn btn-primary py-3 px-5" href="">Get Started Now<i class="fa fa-arrow-right ms-2"></i></a> -->
                                
+                                <a id="call2registerbtn"   class="btn btn-primary py-3 px-5" onclick="displayCallTextFunction()" >Get Started Now<i class="fa fa-arrow-right ms-2"></i></a>
+                            
+                            
+                                <div id="mycall2">
+
+                                    <my-call></my-call>
+                                </div> 
+
+
+
                             </div>
                         </div>
                     </div>
