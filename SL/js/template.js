@@ -491,7 +491,7 @@ class MyAppointmentSpecial extends HTMLElement {
                                      <p>   Send us your message including..
                                    </p>
 
-                                  <p>Name, &nbsp;Email,&nbsp;& Contact Number,</p>
+                                  <p>Name, &nbsp;Email,&nbsp;& Contact Number.</p>
                                   </br>
                                     <ul class="nobull">
                                             <li><a href = "tel:+94777428427">
