@@ -686,6 +686,7 @@ class MyFooter extends HTMLElement {
                 <a class="btn btn-link text-white-50" href="contact.html">Contact Us</a>
                 <a class="btn btn-link text-white-50" href="courses_main.html">Become a Learner</a>
                 <a class="btn btn-link text-white-50" href="careers.html">Become a Teacher</a>
+                <a class="btn btn-link text-white-50" href="guidance.html">Guidance</a>
                 <a class="btn btn-link text-white-50" href="faq.html">FAQ</a>
             </div>
             <div class="col-lg-4 col-md-6">
