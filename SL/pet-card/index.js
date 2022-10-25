@@ -65,13 +65,13 @@ class PetCard extends HTMLElement {
   }
 
   toggleInfo = () => {
-    this.showInfo = !this.showInfo;
-    this.shadowRoot.querySelector(".info").style.display = this.showInfo
-      ? "block"
-      : "none";
-    this.shadowRoot.querySelector("#toggle").innerHTML = this.showInfo
-      ? "Hide Details"
-      : "View Details";
+    // this.showInfo = !this.showInfo;
+    // this.shadowRoot.querySelector(".info").style.display = this.showInfo
+    //   ? "block"
+    //   : "none";
+    // this.shadowRoot.querySelector("#toggle").innerHTML = this.showInfo
+    //   ? "Hide Details"
+    //   : "View Details";
   };
 
   static get observedAttributes() {
@@ -112,29 +112,38 @@ class PetCard extends HTMLElement {
       // age=""
       // classdur=""
       // classlevel=""
+
+      let x=this.getAttribute("classprice");
+      console.log(x);
+      if(x ===""){
+        this.shadowRoot.querySelector("#cls_price").style.display = "none";
+    
+  }
+
       
   }
 
+  
   connectedCallback() {
-    this.shadowRoot
-      .querySelector("#toggle")
-      .addEventListener("click", this.toggleInfo);
-    this.shadowRoot
-      .querySelector("#greet")
-      .addEventListener("click", () =>
-        window.alert(`Hey there! I'm ${this.getAttribute("name")}`)
-      );
+    // this.shadowRoot
+    //   .querySelector("#toggle")
+    //   .addEventListener("click", this.toggleInfo);
+    // this.shadowRoot
+    //   .querySelector("#greet")
+    //   .addEventListener("click", () =>
+    //     window.alert(`Hey there! I'm ${this.getAttribute("name")}`)
+    //   );
   }
 
   disconnectedCallback() {
-    this.shadowRoot
-      .querySelector("#toggle")
-      .removeEventListener("click", this.toggleInfo);
-    this.shadowRoot
-      .querySelector("#greet")
-      .removeEventListener("click", () =>
-        window.alert(`Hey there! I'm ${this.getAttribute("name")}`)
-      );
+    // this.shadowRoot
+    //   .querySelector("#toggle")
+    //   .removeEventListener("click", this.toggleInfo);
+    // this.shadowRoot
+    //   .querySelector("#greet")
+    //   .removeEventListener("click", () =>
+    //     window.alert(`Hey there! I'm ${this.getAttribute("name")}`)
+    //   );
   }
 }
 
