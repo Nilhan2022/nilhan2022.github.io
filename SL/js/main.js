@@ -16,6 +16,15 @@
     spinner();
 
 
+    let isMobile = window.matchMedia("(any-pointer:coarse)").matches;
+if(isMobile){
+    $('#courses_nav').addClass('data-bs-toggle="dropdown"');
+}
+else{
+    $('#courses_nav').removeClass('data-bs-toggle="dropdown"');
+}
+
+
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {

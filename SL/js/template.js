@@ -1,3 +1,6 @@
+// let isMobile = window.matchMedia("(any-pointer:coarse)").matches;
+
+
 class MyHeader extends HTMLElement {
 connectedCallback(){
 this.innerHTML = `
@@ -20,7 +23,7 @@ this.innerHTML = `
             <!-- <a href="index.html" class="nav-item nav-link active">Home</a> -->
             <a href="index.html" class="nav-item nav-link nav-link_c">Home</a>
             <div class="nav-item dropdown">
-             <a href="courses_main.html" class="nav-item nav-link nav-link_c dropdown-toggle" >Courses</a>
+             <a href="courses_main.html" id = "courses_nav" class="nav-item nav-link nav-link_c dropdown-toggle" >Courses</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
                      <a href="coding_classes.html" class="dropdown-item nav-link_c">Coding Classes</a>
                      <a href="innovation_entrepreneur.html" class="dropdown-item nav-link_c"> Innovation</a>
