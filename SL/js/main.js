@@ -16,13 +16,15 @@
     spinner();
 
 
-    let isMobile = window.matchMedia("(any-pointer:coarse)").matches;
-if(isMobile){
-    $('#courses_nav').addClass('data-bs-toggle="dropdown"');
-}
-else{
-    $('#courses_nav').removeClass('data-bs-toggle="dropdown"');
-}
+    // let isMobile = window.matchMedia("(any-pointer:coarse)").matches;
+//     let isMobile = window.matchMedia("only screen and (max-width: 480px)").matches;
+// if(isMobile){
+//     $('#courses_nav').addClass('data-bs-toggle="dropdown"');
+//     console.log("ismobile");
+// }
+// else{
+//     $('#courses_nav').removeClass('data-bs-toggle="dropdown"');
+// }
 
 
     // Sticky Navbar

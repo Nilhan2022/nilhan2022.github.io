@@ -1,6 +1,3 @@
-// let isMobile = window.matchMedia("(any-pointer:coarse)").matches;
-
-
 class MyHeader extends HTMLElement {
 connectedCallback(){
 this.innerHTML = `
@@ -23,7 +20,7 @@ this.innerHTML = `
             <!-- <a href="index.html" class="nav-item nav-link active">Home</a> -->
             <a href="index.html" class="nav-item nav-link nav-link_c">Home</a>
             <div class="nav-item dropdown">
-             <a href="courses_main.html" id = "courses_nav" class="nav-item nav-link nav-link_c dropdown-toggle" >Courses</a>
+             <a href="courses_main.html" id = "courses_nav" class="nav-item nav-link nav-link_c dropdown-toggle" data-bs-toggle="dropdown" >Courses</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
                      <a href="coding_classes.html" class="dropdown-item nav-link_c">Coding Classes</a>
                      <a href="innovation_entrepreneur.html" class="dropdown-item nav-link_c"> Innovation</a>
@@ -38,7 +35,6 @@ this.innerHTML = `
                 <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
                     <a href="academy.html" class="dropdown-item nav-link_c">Our Academy</a>
                     <!-- <a href="Student_Guidance_Appointment.html" class="dropdown-item nav-link_c">Student Guidance</a> -->
-                    <a href="guidance.html" class="dropdown-item nav-link_c">Guidance</a>
                     <a href="careers.html" class="dropdown-item nav-link_c">Careers</a>
                     <a href="collaborate.html" class="dropdown-item nav-link_c">Collaborate</a>
                     <!-- <a href="become_mentor.html" class="dropdown-item nav-link_c">Become A Mentor</a>
@@ -55,6 +51,8 @@ this.innerHTML = `
                      <!-- <a href="FAQ.html" class="dropdown-item">FAQ</a> -->
                 </div>
             </div>
+            <a href="guidance.html" class="nav-item nav-link nav-link_c">Guidance</a>
+
             <a href="contact.html" class="nav-item nav-link nav-link_c">Contact Us</a>
         </div>
         <a href="courses_main.html" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i class="fa fa-arrow-right ms-3"></i></a>
