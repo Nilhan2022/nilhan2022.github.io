@@ -203,6 +203,15 @@
                     <h6>+012 345 6789</h6>
                 </div> -->
         
+
+                <!-- <div id="fb-root"></div> -->
+                <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square"><i class="bi bi-arrow-up"></i></a> -->
+                <!-- Your Chat Plugin code -->
+                <!-- <div id="fb-customer-chat" class="fb-customerchat">
+                </div> -->
+
+
+
             </div></div>
         
 
@@ -212,6 +221,13 @@
 
 
         <!-- Back to Top -->
+        <!-- Messenger Chat Plugin Code -->
+        
+            <!-- <div id="fb-root"></div> -->
+            <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square"><i class="bi bi-arrow-up"></i></a> -->
+            <!-- Your Chat Plugin code -->
+            <div id="fb-customer-chat" class="fb-customerchat">
+            </div>
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
@@ -228,7 +244,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
-<script>// When the user scrolls the page, execute myFunction
+    <!-- <script>// When the user scrolls the page, execute myFunction
     
     fetch("https://jsonplaceholder.typicode.com/posts", {
     method: 'post',
@@ -246,22 +262,46 @@
         }).catch((error) => {
             console.log(error)
         })  
-    </script>
+    </script> -->
 
 
-<script>
+<!-- <script> -->
 
-
+<!-- 
 // $.post('https://fthsiy.deta.dev/canacademy03', {
 //   email: 'nilz.webformz@gmail.com',
 //   name: 'John Doe',
 //   message: 'Test Message'
 // }).then(function () {
 //   alert('Yuppie Form Submitted Successfully!');
-// });
+// }); -->
+<!-- </script> -->
+
+
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "104726475648906");
+  chatbox.setAttribute("attribution", "biz_inbox");
 </script>
 
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v15.0'
+    });
+  };
 
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 
 
 
