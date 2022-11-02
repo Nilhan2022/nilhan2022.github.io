@@ -670,8 +670,20 @@ class MyFooter extends HTMLElement {
             <div class="col-lg-4 col-md-6">
                 <h3 class="text-white mb-4">Get In Touch</h3>
                 <p class="mb-2"><i class="fa fa-brands fa-whatsapp me-3"></i><a href="https://wa.me/+94742833337" target="_blank">(+94) 074 283 3337</a></p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href = "tel:+94742833337">(+94) 074 283 3337</a></p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href = "tel:+94742833337">(+94) 074 283 33375</a></p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>canacademysl@gmail.com </p>
+               
+                <!-- Messenger Chat Plugin Code -->
+                <div id="fb-root"></div>
+                
+                <!-- Your Chat Plugin code -->
+                <div id="fb-customer-chat" class="fb-customerchat">
+                </div>
+                
+                
+                <!-- /////////////// -->
+               
+               
                 <div class="d-flex pt-2">
                     <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
                     <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> -->
@@ -679,8 +691,15 @@ class MyFooter extends HTMLElement {
                     <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>-->
                     <!--  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>-->
                     <!-- <i class="fa-brands fa-instagram"></i> -->
+
+                    
+                    
+
+
                 </div>
             </div>
+
+
             <div class="col-lg-4 col-md-6">
                 <h3 class="text-white mb-4">Quick Links</h3>
                 <a class="btn btn-link text-white-50" href="academy.html">About Us</a>
@@ -765,3 +784,32 @@ class MyFooter extends HTMLElement {
 }
 }
 customElements.define('my-footer',MyFooter)
+
+
+
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "104726475648906");
+  chatbox.setAttribute("attribution", "biz_inbox");
+
+
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v15.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    // js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+
+
+
+
