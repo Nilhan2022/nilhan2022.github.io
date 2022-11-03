@@ -108,7 +108,9 @@
 function displayCallTextFunction() {
     var x = document.getElementById("mycall");
     var y = document.getElementById("call2registerbtn");
+    var z = document.getElementById("mycall2");
   //   if (x.style.display === "none") {
+      z.style.display = "block";
       x.style.display = "block";
       y.style.display = "none";
   //   } else {

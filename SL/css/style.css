@@ -708,3 +708,11 @@ background-image: none !important;
 #mycallf{
     text-align: center;
 }
+/* .back-to-top */
+.fb_dialog  .fb_dialog_advanced{
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
