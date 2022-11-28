@@ -742,6 +742,7 @@ rd1:hover,rounded-circle:hover
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    line-height: 1.3;
   }
 
   .centered_card_btm{
@@ -752,3 +753,12 @@ rd1:hover,rounded-circle:hover
     left: 50%;
     /* transform: translate(-50%, -50%); */
   }
+  .bottomq{
+    position: absolute;
+    top: 80%;
+    /* right: 16px; */
+  }
+
+  .bottomq span { 
+    background-color: white; 
+}
