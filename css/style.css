@@ -632,3 +632,12 @@ background-image: none !important;
     background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(img/course_main.jpeg) center center no-repeat;
     background-size: cover;
 }
+
+.age_index{
+    color:#42A9CB;
+    white-space: pre;
+}
+#1sttext:after{
+  /* content: "\a"; */
+  white-space: pre-line;
+}

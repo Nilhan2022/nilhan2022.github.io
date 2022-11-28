@@ -403,7 +403,7 @@ h6,
     height: 45px;
     top: 50%;
     left: 0;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     display: flex;
     justify-content: space-between;
     z-index: 1;
@@ -584,7 +584,7 @@ h6,
     .display-5,
     .display-6 {
        /* font-family: 'Lobster Two', cursive;*/
-        font-family: 'Verdana', cursive;
+        /* font-family: 'Verdana', cursive; */
         font-weight: 700;
         /* color:black; */
     }
@@ -716,3 +716,39 @@ background-image: none !important;
     bottom: 45px;
     z-index: 99;
 }
+rd1:hover,rounded-circle:hover
+{
+    color: aqua;
+}
+
+.container_card{
+    position: relative;
+    text-align: center;
+    color: rgb(197, 31, 31);
+}
+/* .quote1{
+    
+}
+
+.quote2{
+
+}
+.quote3{
+    
+} */
+
+.centered_card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered_card_btm{
+    position: absolute;
+    /* top: 8px;
+    right: 16px; */
+    top: 80%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+  }

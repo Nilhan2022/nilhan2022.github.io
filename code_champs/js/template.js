@@ -4,7 +4,7 @@ this.innerHTML = `
 
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
-    <a href="index.html" class="navbar-brand">
+    <a href="../index.html" class="navbar-brand">
         <h2 class="m-0 text-primary">
             <img src="img/logo2.png" alt="logo" class="responsive" >
             <img src="img/mob-logo.png" alt="logo" class="mobile" >
@@ -20,7 +20,7 @@ this.innerHTML = `
             <!-- <a href="index.html" class="nav-item nav-link active">Home</a> -->
             <a href="index.html" class="nav-item nav-link nav-link_c">Home</a>
             <div class="nav-item dropdown">
-             <a href="courses_main.html" id = "courses_nav" class="nav-item nav-link nav-link_c dropdown-toggle" data-bs-toggle="dropdown" >Courses</a>
+            <!--  <a href="courses_main.html" id = "courses_nav" class="nav-item nav-link nav-link_c dropdown-toggle" data-bs-toggle="dropdown" >Courses</a>-->
                 <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
                      <a href="coding_classes.html" class="dropdown-item nav-link_c">Coding Classes</a>
                      <a href="innovation_entrepreneur.html" class="dropdown-item nav-link_c"> Innovation</a>
@@ -51,11 +51,11 @@ this.innerHTML = `
                      <!-- <a href="FAQ.html" class="dropdown-item">FAQ</a> -->
                 </div>
             </div>
-            <a href="guidance.html" class="nav-item nav-link nav-link_c">Guidance</a>
+            <!--  <a href="guidance.html" class="nav-item nav-link nav-link_c">Guidance</a>-->
 
             <a href="contact.html" class="nav-item nav-link nav-link_c">Contact Us</a>
         </div>
-        <a href="courses_main.html" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i class="fa fa-arrow-right ms-3"></i></a>
+        <a href="contact.html" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
 </nav>
     <!-- Navbar End -->
@@ -704,7 +704,7 @@ class MyFooter extends HTMLElement {
                 <h3 class="text-white mb-4">Quick Links</h3>
                 <a class="btn btn-link text-white-50" href="academy.html">About Us</a>
                 <a class="btn btn-link text-white-50" href="contact.html">Contact Us</a>
-                <a class="btn btn-link text-white-50" href="courses_main.html">Become a Learner</a>
+                <!--<a class="btn btn-link text-white-50" href="courses_main.html">Become a Learner</a>-->
                 <a class="btn btn-link text-white-50" href="careers.html">Become a Teacher</a>
                 <a class="btn btn-link text-white-50" href="guidance.html">Guidance</a>
                 <a class="btn btn-link text-white-50" href="faq.html">FAQ</a>
