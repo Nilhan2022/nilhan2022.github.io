@@ -762,3 +762,14 @@ rd1:hover,rounded-circle:hover
   .bottomq span { 
     background-color: white; 
 }
+
+
+.container_card{
+    
+    padding-left: 0px;
+    padding-bottom:0px;;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
